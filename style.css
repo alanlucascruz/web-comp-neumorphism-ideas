@@ -1,0 +1,46 @@
+* {
+  font-family: "Roboto";
+}
+
+html,
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  background-color: #ecedf8;
+}
+
+.container {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  text-decoration: none;
+  height: 64px;
+  width: 64px;
+  margin-right: 2rem;
+  color: #8490a4;
+}
+
+.btn-concave-rounded {
+  border-radius: 150px;
+  background: linear-gradient(145deg, #d4d5df, #fdfeff);
+  box-shadow: 6px 6px 12px #c9c9d3, -6px -6px 12px #ffffff;
+}
+.btn-pressed {
+  border-radius: 20px;
+  background: #ecedf8;
+  box-shadow: inset 6px 6px 12px #c6c7d0, inset -6px -6px 12px #ffffff;
+}
+.btn-convex {
+  border-radius: 20px;
+  background: linear-gradient(145deg, #fdfeff, #d4d5df);
+  box-shadow: 6px 6px 12px #c6c7d0, -6px -6px 12px #ffffff;
+}
