@@ -1,1 +1,1 @@
-# web-comp-neomorphism-ideas
+# web-comp-neumorphism-ideas
